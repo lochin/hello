@@ -1,6 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
-	cout<<"Hello CI students!"<<endl;
+	int a, b;
+	cin >> a >> b;
+	if(b > a)
+		a = b;
+	cout<<a<<endl;
 	return 0;
 }
